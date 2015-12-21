@@ -24,10 +24,10 @@ public class MainActivity extends AppCompatActivity {
                 AlertDialog.Builder details = new AlertDialog.Builder(self);
                 details.setTitle("Measurement Details");
                 LayoutInflater li = LayoutInflater.from(self);
-                View detailsView =  li.inflate(R.layout.measurements,null);
+                View detailsView =  li.inflate(R.layout.measurement,null);
                 details.setView(detailsView);
                 AlertDialog getDetails = details.create();
-                getDetails.show()
+                getDetails.show();
             }
         });
     }
